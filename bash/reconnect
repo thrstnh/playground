@@ -1,0 +1,18 @@
+#!/bin/bash
+
+poff
+killall pppd
+sleep 1
+
+while [ "`/usr/bin/showip`" != "" ]; do
+    sleep 1;
+done
+
+pon dsl-provider
+
+while [ "`/usr/bin/showip`" = "" ]; do
+    sleep 1;
+done
+
+/etc/init.d/firewall.sh
+
