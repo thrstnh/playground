@@ -1,0 +1,515 @@
+body{
+	background-color: #434D30;
+	margin: 4px;
+	padding: 0px;
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+/* Link-Option */
+a:link {
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:visited {
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:active {
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:hover {
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+a:focus {
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+
+/* Link-Option unter den Bildern*/
+a:link.image {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:visited.image {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:active.image {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+a:hover.image {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+a:focus.image {
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F3F3D4;
+}
+
+font.errormsg {
+	font-size: 16px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #F3F3D4;
+}
+
+/*
+ * Standard Design fuer alle Tabellenzellen.
+ * Alles was hier steht, wird fuer alle
+ * Tabellenzellen uebernommen
+ */
+td{
+	margin: 0px;
+	padding: 0px;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	color: #F3F3D4;
+	border: 0px solid #FFFFFF;
+}
+
+/*
+ * Standard Design fuer alle Tabellen.
+ * Alles was hier steht, wird fuer alle
+ * Tabellen uebernommen
+ */
+table {
+	margin: 0px;
+	padding: 0px;
+	font-size:12px;
+	font-style:normal;
+	color: #F3F3D4;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+}
+
+table.std {
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	font-size:12px;
+	font-style:normal;
+	color: #F3F3D4;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+}
+
+/* Index-Tabelle. Das ist die Haupttabelle
+ * der Gallery
+ */
+table.index {
+	margin: 0px;
+	padding: 0px;
+	min-width: 720px;
+	width: 720px;
+	max-width: 720px;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+	border-spacing:7px;
+}
+
+/* Admin-Tabelle. Das ist die Haupttabelle
+ * des Admin-Menues
+ */
+table.admin {
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+	border-spacing:7px;
+}
+
+/* Config-Tabelle. Das ist die Haupttabelle
+ * der Tabellen rechts im Admin-Menue
+ */
+table.conf {
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+	border-spacing:7px;
+}
+
+table.mngimg {
+	margin: 0px;
+	padding: 2px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFFFF;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+
+
+table.mnguser {
+	margin: 0px;
+	padding: 2px;
+	min-width: 100%;
+	width: 100%;
+	max-width: 100%;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #FFFFFF;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+
+table.images {
+	margin: 0px;
+	padding: 3px;
+	text-align: center;
+	font-size:12px;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #FFFF00;
+	border-spacing:10px;
+	empty-cells:show;
+}
+
+td.head {
+	text-align: left;
+	padding: 0px;
+	border: 1px dotted #CCCCCC;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	vertical-align: top;
+}
+
+td.banner {
+	text-align: left;
+	padding: 0px;
+	border: 1px dotted #CCCCCC;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	vertical-align: top;
+}
+
+td.menu {
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+	border: 1px dotted #CCCCCC;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 180px;
+	width: 180px;
+	max-width: 180px;
+	vertical-align: top;
+}
+
+td.main {
+	padding: 5px;
+	margin: 0px;
+	text-align:center;
+	border: 1px dotted #CCCCCC;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+}
+
+
+td.image {
+	text-align: center;
+	padding: 1px;
+	margin: 0px;
+	border: 0px solid #CCCCCC;
+	background-color: #616C30;
+	font-size:9px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+}
+
+hr {
+	border: 1px solid #F3F3D4;
+}
+
+input.upload {
+	margin: 0px;
+	padding: 2px;
+	font-size:10px;
+	color:#232323;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+input.file {
+	margin: 0px;
+	padding: 2px;
+	background-color: #6A6C30;
+	border: 1px solid #9EA274;
+	font-size:10px;
+	color:#F3F3D4;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 240px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+input.stdtxt {
+	margin: 0px;
+	padding: 2px;
+	background-color: #6A6C30;
+	border: 1px solid #9EA274;
+	font-size:10px;
+	color:#F3F3D4;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 240px;
+	height: 20px;
+	vertical-align: middle;
+}
+textarea.stdtxa {
+	margin: 0px;
+	padding: 2px;
+	background-color: #6A6C30;
+	border: 1px solid #9EA274;
+	font-size:10px;
+	color:#F3F3D4;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 240px;
+	height: 90px;
+}
+
+input.stdchk {
+	margin: 0px;
+	padding: 0px;
+	background-color: #6A6C30;
+	border: 0px solid #9EA274;
+}
+
+select.stdcmb {
+	background-color: #6A6C30;
+	border: 0px solid #9EA274;
+	font-size:10px;
+	color:#F3F3D4;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 240px;
+}
+
+input.btn {
+	width: 120px;
+	height: 16px;
+	font-size:11px;
+	color:#000000;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #FFFFFF;
+    margin: 0px;
+}
+
+input.stdbtn {
+	width: 120px;
+	height: 18px;
+	font-size:10px;
+	color:#000000;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #232323;
+    margin: 0px;
+	padding: 1px;
+}
+
+td.std {
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+	font-size:10px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: top;
+}
+
+/* Standard TD Center */
+td.stdc {
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+	font-size:10px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: top;
+	text-align: center;
+}
+/* Standard TD LEFT */
+td.stdl {
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+	font-size:10px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: top;
+	text-align: left;
+}
+/* Standard TD RIGHT */
+td.stdr {
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+	font-size:10px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	text-align: right;
+}
+
+
+div.galbanner {
+	border: 1px solid #F3F3D4;
+	width: 95%;
+	text-align: left;
+	padding: 3px;
+	background-color: #6A6C30;
+}
+
+
+div.infobox {
+	text-align: left;
+	padding: 3px;
+	margin: 0px;
+	border: 1px solid #F3F3D4;
+	background-color: #616C30;
+	font-size:10px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 94%;
+	vertical-align: top;
+}
+
+div.commenthead {
+	text-align: left;
+	padding: 3px;
+	margin: 0px;
+	border: 1px solid #F3F3D4;
+	background-color: #616C30;
+	font-size:24px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 94%;
+	vertical-align: top;
+}
+
+div.toolbox {
+	text-align: center;
+	padding: 3px;
+	margin: 0px;
+	border: 1px solid #F3F3D4;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 94%;
+	vertical-align: top;
+}
+
+div.comment {
+	text-align: left;
+	padding: 3px;
+	margin: 0px;
+	border: 1px solid #F3F3D4;
+	background-color: #616C30;
+	font-size:12px;
+	color:#FFFFFF;
+	font-style:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 94%;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+#####################################################
+# MTF_Counter
+# Version: 0.1
+# Datum: 03.04.2005
+# Author: Thorsten Hillebrand
+# www: http://www.matflasch.de
+# eMail: matflasch@web.de
+#####################################################
+# License
+#
+# Gnu Public License (GPL)
+#####################################################
+# Installation
+#
+# Es muss ein Verzeichnis erstellt werden, wo
+# der MTF_Counter gespeichert werden soll.
+# Z.B. kann ein Verzeichnis 'modules'
+# erstellt werden und in diesem Verzeichnis dann
+# das Verzeichnis 'mtf_counter'.
+# Nun werden die Counter-Dateien in dieses Verzeichnis
+# entpackt.
+# Als naechstes muss die conf.php Datei angepasst werden.
+# Die Datenbank-Daten und Tabellennamen muessen 
+# eingetragen werden. Anschliessend muss die install.php
+# Datei aufgerufen werden. Hier werden dann die Tabellen
+# zum Speichern der Daten erstellt.
+# ACHTUNG: Nachdem die Tabellen erstellt wurden, bitte 
+# die install.php vom Server loeschen!
+# Nun muss die Datei counter.php noch ein wenig
+# angepasst werden. Der Pfad vom Stammverzeichnis
+# aus muss zu den Klassendateien und der conf.php
+# angegeben werden.
+# Und schon sollte der MTF_Counter laufen.
+#######################################################
+# Support
+#
+# Falls es Probleme gibt, bitte eine eMail an
+# matflasch@web.de schicken mit dem Problem.
+# Ich werde dann schnellstmoeglich eine Loesung
+# suchen und antworten.
+#######################################################
