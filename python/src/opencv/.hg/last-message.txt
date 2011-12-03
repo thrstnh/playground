@@ -1,1 +1,0 @@
-openni py wrapper: opennpy
