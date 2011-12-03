@@ -1,14 +1,24 @@
-"old" source code and examples or fragments.
+########################################################
+# "old" source code and examples or fragments.
+#
+# Author: thrstnh
+# email: thrstn.hllbrnd@googlemail.com
+#
+
 maybe interesting stuff could be...
 
 https://github.com/thrstnh/playground/tree/master/LaTeX
 https://github.com/thrstnh/playground/tree/master/pymp/src
 https://github.com/thrstnh/playground/tree/master/python/src
-https://github.com/thrstnh/playground/blob/master/java/mathplotter.jpg
-https://github.com/thrstnh/playground/blob/master/java/seekndestroy-aStar.jpg
-https://github.com/thrstnh/playground/blob/master/java/seekndestroy-bestFirst.jpg
-https://github.com/thrstnh/playground/blob/master/java/seekndestroy-breadth.jpg
-https://github.com/thrstnh/playground/blob/master/java/seekndestroy-depth.jpg
-https://github.com/thrstnh/playground/blob/master/java/seekndestroy-hillClimbing.jpg
 https://github.com/thrstnh/playground/tree/master/php/mtf_counter
 https://github.com/thrstnh/playground/tree/master/php/mtfgallery
+
+screenshots:
+  https://github.com/thrstnh/playground/blob/master/java/mathplotter.jpg
+  https://github.com/thrstnh/playground/blob/master/java/seekndestroy-aStar.jpg
+  https://github.com/thrstnh/playground/blob/master/java/seekndestroy-bestFirst.jpg
+  https://github.com/thrstnh/playground/blob/master/java/seekndestroy-breadth.jpg
+  https://github.com/thrstnh/playground/blob/master/java/seekndestroy-depth.jpg
+  https://github.com/thrstnh/playground/blob/master/java/seekndestroy-hillClimbing.jpg
+
+have fun!
