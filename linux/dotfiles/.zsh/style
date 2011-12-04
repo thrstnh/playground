@@ -1,0 +1,59 @@
+#!/bin/zsh
+
+# use cache
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
+
+## completion general
+# so viel es geht
+zstyle ':completion:*' completer _complete _list _oldlist _expand _ignored _match _correct _approximate _prefix
+## weniger
+#zstyle ':completion:*' completer _expand _complete _list _ignored _approximate
+## minimal
+#zstyle ':completion:*' completer _complete _ignored
+
+# menu completion
+zstyle ':completion:*:default' menu yes select
+# ...with colors
+zstyle ':completion:*:default' list-colors 'tc=35' 'ma=41;37' 'st=43;36' 'di=31;1' 'ex=33;1' \
+                                           'ln=32' '*CVS=35' '*rej=31;1' '*orig=35'
+# easy kill
+zstyle ':completion:*:*:(kill|wait):*' tag-order 'jobs processes'
+zstyle ':completion:*:*:(kill|wait):*' group-order jobs
+zstyle ':completion:*:kill:*' force-list always
+
+## case-insensitive (uppercase from lowercase) completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+## case-insensitive (all) completion
+#zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
+## add colors to processes for kill completion
+zstyle ':completion:*:parameters' list-colors '=_*=33' '=[^a-zA-Z]*=31'
+zstyle ':completion:*:functions' list-colors '=_*=33' '=*-*=31'
+zstyle ':completion:*:original' list-colors '=*=31;1'
+zstyle ':completion:*:all-expansions' list-colors '=*=32'
+zstyle ':completion:*:option(-*|s)' auto-description 'specify %d'
+zstyle ':completion:*:(options|values)' list-colors \
+       '=(#b)(*)-- (*)=35;1=31;1=33;1' '=*=31;1'
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+
+
+# TODO
+zstyle ':completion:*:*:showimg:*' file-patterns '*.(jpg|JPG):jpg\ files *(-/):directories'
+
+## formatting and messages
+zstyle ':completion:*' verbose yes
+zstyle ':completion:*:descriptions' format $'%{\e[0;31m%}%d%{\e[0m%}'
+zstyle ':completion:*:messages' format $'%{\e[0;31m%}%d%{\e[0m%}'
+zstyle ':completion:*:warnings' format $'%{\e[0;31m%}No matches for: %d%{\e[0m%}'
+zstyle ':completion:*:corrections' format $'%{\e[0;31m%}%d (errors: %e)%{\e[0m%}'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' menu select=long
+
+# --help, not -h
+compdef _gnu_generic slrnpull make df du amarokapp amarok kpdf scanner
+
+## add colors to completions
+zstyle ':completion:*' list-colors $LS_COLORS
+
+

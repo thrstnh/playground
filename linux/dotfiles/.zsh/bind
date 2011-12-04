@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+# INS
+bindkey "^[[2~" overwrite-mode
+# PGUP
+bindkey "^[[5~" history-search-backward
+# PGDN
+bindkey "^[[6~" history-search-forward  # PgDn
+# POS1
+bindkey    "\e[7~"    beginning-of-line
+# END
+bindkey    "\e[8~"    end-of-line
+# DEL
+bindkey    "\e[3~"    delete-char
