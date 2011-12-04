@@ -7,14 +7,25 @@
 
 maybe interesting stuff could be...
 
-https://github.com/thrstnh/playground/tree/master/LaTeX
+"python by example"
+https://github.com/thrstnh/playground/blob/master/LaTeX/python_by_example/vortrag-final.pdf
+
+"pymp - python music player (early 'release')"
 https://github.com/thrstnh/playground/tree/master/pymp/src
+
+"python examples code"
 https://github.com/thrstnh/playground/tree/master/python/src
+
+"php in 2005"
 https://github.com/thrstnh/playground/tree/master/php/mtf_counter
 https://github.com/thrstnh/playground/tree/master/php/mtfgallery
 
+
 screenshots:
+  "mathplotter"
   https://github.com/thrstnh/playground/blob/master/java/mathplotter.jpg
+
+  "search algorithms"
   https://github.com/thrstnh/playground/blob/master/java/seekndestroy-aStar.jpg
   https://github.com/thrstnh/playground/blob/master/java/seekndestroy-bestFirst.jpg
   https://github.com/thrstnh/playground/blob/master/java/seekndestroy-breadth.jpg
